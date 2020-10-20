@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_marginLeft="40dp"
+       android:layout_marginRight="40dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="This is 1st page"
+       android:textSize="30sp"
+       android:textAlignment="center"
+       android:textColor="#000"
+       android:id="@+id/text"
+       >
+
+   </TextView>
+   <Button
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:layout_marginRight="40dp"
+      android:layout_marginLeft="40dp"
+       android:layout_below="@+id/text"
+       android:id="@+id/button"
+       android:textSize="25sp"
+       android:text="Click Here"
+
+      >
+
+   </Button>
+
+
+</RelativeLayout>
